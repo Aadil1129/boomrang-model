@@ -17,7 +17,7 @@ function Index() {
             About
           </Link>
           <Link className="navbar-element" to="/designe">
-            Cards
+            Card
           </Link>
           <Link className="navbar-element" to="/style">
             Creative
