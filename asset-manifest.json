@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/boomrang-model/static/css/main.d2a6bcda.chunk.css",
+    "main.js": "/boomrang-model/static/js/main.c00001da.chunk.js",
+    "main.js.map": "/boomrang-model/static/js/main.c00001da.chunk.js.map",
+    "runtime-main.js": "/boomrang-model/static/js/runtime-main.bfa16810.js",
+    "runtime-main.js.map": "/boomrang-model/static/js/runtime-main.bfa16810.js.map",
+    "static/js/2.83f1e729.chunk.js": "/boomrang-model/static/js/2.83f1e729.chunk.js",
+    "static/js/2.83f1e729.chunk.js.map": "/boomrang-model/static/js/2.83f1e729.chunk.js.map",
+    "static/js/3.f5f73874.chunk.js": "/boomrang-model/static/js/3.f5f73874.chunk.js",
+    "static/js/3.f5f73874.chunk.js.map": "/boomrang-model/static/js/3.f5f73874.chunk.js.map",
+    "index.html": "/boomrang-model/index.html",
+    "static/css/main.d2a6bcda.chunk.css.map": "/boomrang-model/static/css/main.d2a6bcda.chunk.css.map",
+    "static/js/2.83f1e729.chunk.js.LICENSE.txt": "/boomrang-model/static/js/2.83f1e729.chunk.js.LICENSE.txt",
+    "static/media/beach.0e301434.jpeg": "/boomrang-model/static/media/beach.0e301434.jpeg",
+    "static/media/cake.99a146e5.jpeg": "/boomrang-model/static/media/cake.99a146e5.jpeg",
+    "static/media/chocomilk.71c51944.jpeg": "/boomrang-model/static/media/chocomilk.71c51944.jpeg",
+    "static/media/index.css": "/boomrang-model/static/media/module-2.3e6abcc1.jpeg",
+    "static/media/icecreamshop.9c1b6b0c.jpeg": "/boomrang-model/static/media/icecreamshop.9c1b6b0c.jpeg",
+    "static/media/index.89c0f1c8.jpeg": "/boomrang-model/static/media/index.89c0f1c8.jpeg",
+    "static/media/inline_image_preview.cfa25f9a.jpeg": "/boomrang-model/static/media/inline_image_preview.cfa25f9a.jpeg",
+    "static/media/ipad.de7d4f79.png": "/boomrang-model/static/media/ipad.de7d4f79.png",
+    "static/media/letter.17c39492.jpeg": "/boomrang-model/static/media/letter.17c39492.jpeg",
+    "static/media/mega-mockup.96c40370.png": "/boomrang-model/static/media/mega-mockup.96c40370.png",
+    "static/media/milk.25b5c849.jpeg": "/boomrang-model/static/media/milk.25b5c849.jpeg",
+    "static/media/module-18.7e1b8b08.jpeg": "/boomrang-model/static/media/module-18.7e1b8b08.jpeg",
+    "static/media/plant.e74a4711.jpeg": "/boomrang-model/static/media/plant.e74a4711.jpeg",
+    "static/media/slider1.961c5dd5.jpeg": "/boomrang-model/static/media/slider1.961c5dd5.jpeg",
+    "static/media/slider2.76984b09.jpeg": "/boomrang-model/static/media/slider2.76984b09.jpeg",
+    "static/media/slider3.a402e67c.jpeg": "/boomrang-model/static/media/slider3.a402e67c.jpeg",
+    "static/media/tree.88e25bd1.jpeg": "/boomrang-model/static/media/tree.88e25bd1.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfa16810.js",
+    "static/js/2.83f1e729.chunk.js",
+    "static/css/main.d2a6bcda.chunk.css",
+    "static/js/main.c00001da.chunk.js"
+  ]
+}
