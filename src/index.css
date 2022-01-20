@@ -1133,9 +1133,6 @@ label {
   .container__child {
     padding: 2rem;
   }
-  #carouselExampleCaptions {
-    width: 95%;
-  }
 }
 /* responsive 600px */
 @media screen and (max-width: 550px) {
@@ -1149,5 +1146,59 @@ label {
   .firstpage-first {
     height: 15rem;
     width: 15rem;
+  }
+  .flexible-box2-page {
+    width: 100%;
+  }
+  .winter {
+    margin: 2.5rem auto;
+  }
+  .winter-heading {
+    font-size: 2rem;
+  }
+  .winter-para {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .winter-image {
+    margin: 2rem auto;
+  }
+  .about-component-box-container {
+    margin: 2rem auto;
+  }
+  .digital-heading {
+    font-size: 2rem;
+  }
+  .digital-para {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .digital-cards-container {
+    margin: 3rem auto;
+  }
+  .card-component-first {
+    width: 80%;
+  }
+  .creative-top-heading {
+    font-size: 2rem;
+  }
+  .creative-top-para {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .flexible-page {
+    padding: 120px 40px 20px;
+  }
+  .creative-button {
+    margin: 2rem auto;
+  }
+  .creative-full-page {
+    margin: 60px auto;
+  }
+  .carousel-fullpage {
+    margin: 60px auto;
+  }
+  .location-fullpage {
+    margin: 60px auto;
   }
 }
