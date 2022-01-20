@@ -5,8 +5,22 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
+import { styled } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Rating from "@mui/material/Rating";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import Typography from "@mui/material/Typography";
 
 export default function LocationComponent({ item }) {
+  const StyledRating = styled(Rating)({
+    "& .MuiRating-iconFilled": {
+      color: "#ff6d75",
+    },
+    "& .MuiRating-iconHover": {
+      color: "#ff3d47",
+    },
+  });
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -20,6 +34,36 @@ export default function LocationComponent({ item }) {
     <div className="card-component-box">
       <i id="icons" className={item.icon}></i>
       <img className="digital-cards-image" src={item.image} alt="index" />
+      <Box
+        sx={{
+          "& > legend": { mt: 2 },
+        }}
+      >
+        <Typography
+          component="legend"
+          style={{
+            fontSize: "16px",
+            fontWeight: "bold",
+            fontFamily: "sans-serif",
+          }}
+        >
+          Rating
+        </Typography>
+        <StyledRating
+          name="customized-color"
+          defaultValue={2}
+          getLabelText={value => `${value} Heart${value !== 1 ? "s" : ""}`}
+          icon={
+            <FavoriteIcon fontSize="inherit" style={{ fontSize: "1.4rem" }} />
+          }
+          emptyIcon={
+            <FavoriteBorderIcon
+              fontSize="inherit"
+              style={{ fontSize: "1.4rem" }}
+            />
+          }
+        />
+      </Box>
       <div className="location-heading">{item.title}</div>
       <p className="card-component-para">{item.title2}</p>
       <Button
