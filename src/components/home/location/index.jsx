@@ -14,8 +14,8 @@ function Location() {
         </p>
       </div>
       <div className="card-component-first">
-        {Data.map(item => (
-          <LocationComponent item={item} />
+        {Data.map((item, index) => (
+          <LocationComponent key={index} item={item} />
         ))}
       </div>
       <Map />

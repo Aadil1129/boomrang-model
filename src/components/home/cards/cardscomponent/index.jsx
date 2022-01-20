@@ -6,13 +6,13 @@ function CardsComponent() {
   return (
     <div className="cards-component-page">
       <div className="card-component-first">
-        {Data.map(item => (
-          <DataComponent item={item} />
+        {Data.map((item, index) => (
+          <DataComponent key={index} item={item} />
         ))}
       </div>
       <div className="card-component-second">
-        {Data2.map(item => (
-          <DataComponent item={item} />
+        {Data2.map((item, index) => (
+          <DataComponent key={index} item={item} />
         ))}
       </div>
     </div>

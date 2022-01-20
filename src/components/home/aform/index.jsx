@@ -1,13 +1,9 @@
 import React from "react";
 import Back from "images/inline_image_preview.jpeg";
 import avatar from "images/logoavtar.png";
+import Button from "@mui/material/Button";
 
 function MyForm() {
-  const inputFunction = event => {
-    event.preventDefault();
-    console.log(event.value);
-  };
-
   return (
     <div className="form-full-page">
       <div className="form-background">
@@ -35,53 +31,57 @@ function MyForm() {
               </div>
               <form action="#" className="submit-form-box">
                 <div className="form-group">
-                  <label for="username">Username</label>
+                  <label htmlFor="username">Username</label>
                   <input
                     className="form-control"
                     type="text"
                     name="username"
                     id="username"
                     placeholder="Your Name"
+                    required
                   />
                 </div>
                 <div className="form-group">
-                  <label for="email">Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     className="form-control"
                     type="text"
                     name="email"
                     id="email"
                     placeholder=".....gmail.com"
+                    required
                   />
                 </div>
                 <div className="form-group">
-                  <label for="password">Password</label>
+                  <label htmlFor="password">Password</label>
                   <input
                     className="form-control"
                     type="password"
                     name="password"
                     id="password"
                     placeholder="********"
+                    required
                   />
                 </div>
                 <div className="form-group">
-                  <label for="phone">Phone Number</label>
+                  <label htmlFor="phone">Phone Number</label>
                   <input
                     className="form-control"
                     type="number"
                     name="phone"
                     id="passwordRepeat"
                     placeholder="Phone"
+                    required
                   />
                 </div>
                 <div className="form-button">
-                  <input
-                    onChange={inputFunction}
-                    id="btn--form2"
-                    className="btn btn--form"
+                  <Button
                     type="submit"
-                    value="Register"
-                  />
+                    variant="contained"
+                    style={{ width: "40%" }}
+                  >
+                    SUBMIT
+                  </Button>
                 </div>
               </form>
             </div>

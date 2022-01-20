@@ -17,7 +17,7 @@ const Data = [
 ];
 const Data2 = [
   {
-    icon: "	fab fa-napster",
+    icon: "fa fa-headphones",
     title: "Great Support",
     title2: `See how your users experience your website in realtime or view trends to see any changes in performance over time.`,
   },
@@ -27,7 +27,7 @@ const Data2 = [
     title2: `See how your users experience your website in realtime or view trends to see any changes in performance over time.`,
   },
   {
-    icon: "fas fa-paint-brush",
+    icon: "	fa fa-magic",
     title: "Trendy Design",
     title2: `See how your users experience your website in realtime or view trends to see any changes in performance over time.`,
   },

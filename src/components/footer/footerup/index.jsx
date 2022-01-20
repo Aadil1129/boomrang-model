@@ -8,8 +8,8 @@ function FooterTop() {
     <div className="footer-fullpage">
       <div className="footer-top-data">
         <div className="footer-data">
-          {Data.map(item => (
-            <DataComponent item={item} />
+          {Data.map((item, index) => (
+            <DataComponent key={index} item={item} />
           ))}
         </div>
       </div>

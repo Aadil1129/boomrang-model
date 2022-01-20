@@ -21,8 +21,8 @@ function Flexible() {
                 taken and discover.
               </p>
             </div>
-            {Data.map(item => (
-              <FormApi item={item} />
+            {Data.map((item, index) => (
+              <FormApi key={index} item={item} />
             ))}
           </div>
         </div>

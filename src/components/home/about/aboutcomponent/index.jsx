@@ -5,8 +5,8 @@ import Card from "./card";
 function AboutComponent() {
   return (
     <div className="about-component-box-container">
-      {data.map(item => (
-        <Card item={item} />
+      {data.map((item, index) => (
+        <Card key={index} item={item} />
       ))}
     </div>
   );
