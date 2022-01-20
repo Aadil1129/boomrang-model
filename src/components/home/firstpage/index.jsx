@@ -10,7 +10,10 @@ function First() {
         <p className="firstpage-para">
           See how your users experience your website in realtime or view
           <br />
-          trends to see any changes in performance over time.
+          <span className="firstpage-para-span">
+            {" "}
+            trends to see any changes in performance over time.
+          </span>
         </p>
         <div className="firstpage-images-box">
           <div className="firstpage-first"></div>

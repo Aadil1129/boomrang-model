@@ -17,7 +17,7 @@ function Carousel() {
         id="carouselExampleCaptions"
         className="carousel slide"
         data-bs-ride="carousel"
-        style={{ width: "80%", margin: "auto" }}
+        style={{ width: "85%", margin: "auto" }}
       >
         <div className="carousel-indicators">
           <button

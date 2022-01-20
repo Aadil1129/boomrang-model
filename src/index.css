@@ -988,6 +988,9 @@ label {
 /* Responsive 768px */
 
 @media screen and (max-width: 768px) {
+  .firstpage-heading {
+    font-size: 2.5rem;
+  }
   .offcanvas-slidebar-page {
     display: none;
   }
@@ -1019,7 +1022,7 @@ label {
     margin: 100px auto;
   }
   .about-component-box {
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
   }
   .about-component-link {
@@ -1130,9 +1133,19 @@ label {
   .container__child {
     padding: 2rem;
   }
+  #carouselExampleCaptions {
+    width: 95%;
+  }
 }
 /* responsive 600px */
 @media screen and (max-width: 550px) {
+  .firstpage-heading {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .firstpage-para-span {
+    display: none;
+  }
   .firstpage-first {
     height: 15rem;
     width: 15rem;
