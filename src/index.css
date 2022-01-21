@@ -809,7 +809,6 @@ hr {
 
 /* new form */
 .form-full-page {
-  max-width: 1150px;
   margin: auto;
 }
 .signup__form {
@@ -931,9 +930,12 @@ label {
   height: 10px;
   width: 20%;
 }
+.from-box {
+  max-width: 900px;
+  margin: auto;
+}
 .from-box-page {
-  padding: 7rem 5rem;
-  margin: 7rem;
+  padding: 7rem 0rem;
   background: linear-gradient(127deg, #d613d6, #03e0bc);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1122,6 +1124,7 @@ label {
   .digital-cards-para {
     font-size: 1rem;
   }
+
   .from-box-page {
     padding: 3rem 0rem;
     margin: 0rem;
