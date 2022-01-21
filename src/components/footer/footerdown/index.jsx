@@ -13,11 +13,6 @@ function FooterDown() {
         <Twitter />
         <Portfolio />
       </div>
-      <hr />
-      <div className="footer-down-bottom">
-        © 2018 Boomerang, All Rights Reserved. Design with love by{" "}
-        <span id="footer-twitter-short">2theme</span>
-      </div>
     </div>
   );
 }
