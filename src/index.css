@@ -20,6 +20,53 @@ body {
   padding: 0px;
   font-family: sans-serif;
 }
+.MuiPaper-root {
+  width: 100%;
+}
+.MuiTypography-root {
+  color: gray;
+}
+.formContainer {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2.9rem auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px 4px #ececec;
+  width: 80%;
+  background-color: floralwhite;
+  text-align: center;
+}
+.fullform {
+  margin: 1rem auto;
+  width: 100%;
+}
+.MuiTextField-root {
+  width: 100%;
+}
+.form-skills {
+  color: #666565;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+#outline-basic {
+  letter-spacing: 2px;
+}
+.MuiFormControlLabel-root {
+  width: 20%;
+}
+#demo-radio-buttons-group-label {
+  color: #565656;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: emoji;
+}
+.required-field {
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 .header-background {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./images/module-2.jpeg);

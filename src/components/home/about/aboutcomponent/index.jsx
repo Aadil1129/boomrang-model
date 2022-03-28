@@ -4,11 +4,13 @@ import Card from "./card";
 
 function AboutComponent() {
   return (
-    <div className="about-component-box-container">
-      {data.map((item, index) => (
-        <Card key={index} item={item} />
-      ))}
-    </div>
+    <>
+      <div className="about-component-box-container">
+        {data.map((item, index) => (
+          <Card key={index} item={item} />
+        ))}
+      </div>
+    </>
   );
 }
 
