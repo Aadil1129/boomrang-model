@@ -5,7 +5,6 @@ import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import LogoutIcon from "@mui/icons-material/Logout";
-import Form from "./signin.jsx";
 function Index() {
   const [open, setOpen] = React.useState(false);
 
@@ -54,7 +53,6 @@ function Index() {
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
           >
-            <Form />
             <DialogActions>
               <Button variant="contained" color="warning" onClick={handleClose}>
                 Back
