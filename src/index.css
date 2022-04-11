@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    montserrat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,7 +18,7 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: montserrat;
 }
 .MuiPaper-root {
   width: 100%;
@@ -59,7 +59,7 @@ body {
   color: #565656;
   font-weight: bold;
   font-size: 20px;
-  font-family: emoji;
+  font-family: montserrat;
 }
 .required-field {
   color: red;
@@ -96,7 +96,7 @@ body {
 .firstpage-para {
   line-height: 2.1rem;
   font-weight: bold;
-  font-family: system-ui;
+  font-family: montserrat;
   margin: 1.5rem auto;
 }
 .firstpage-images-box {
@@ -187,7 +187,7 @@ body {
   font-weight: bold;
   text-align: center;
   line-height: 1.5rem;
-  font-family: system-ui;
+  font-family: montserrat;
   color: #768285;
 }
 .offcanvas-first {
@@ -313,16 +313,12 @@ body {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 1rem;
+  font-family: montserrat;
 }
 .winter-para {
   letter-spacing: 0.01875rem;
   font-size: 1.1rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.8rem;
-  margin-bottom: 4rem;
-  font-family: fantasy;
-  color: #8d8888;
+  font-family: montserrat;
 }
 .about-component-box-container {
   display: flex;
@@ -334,7 +330,7 @@ body {
 .about-component-heading {
   font-size: 0.875rem;
   margin: 0 0 12px;
-  font-family: inherit;
+  font-family: montserrat;
   font-weight: 600;
   line-height: 1.3;
   color: #222;
@@ -342,7 +338,7 @@ body {
 .about-component-para {
   font-size: 0.95rem;
   color: #808181;
-  font-family: system-ui;
+  font-family: montserrat;
   font-weight: 500;
 }
 .about-component-box {
@@ -355,7 +351,7 @@ body {
   color: #505cfd;
   text-decoration: none;
   display: block;
-  font-family: system-ui;
+  font-family: montserrat;
   font-weight: 500;
   cursor: pointer;
   font-size: 0.95rem;
@@ -369,7 +365,7 @@ body {
   font-size: 2.625rem;
   font-weight: 400;
   margin-bottom: 0.625rem;
-  font-family: inherit;
+  font-family: montserrat;
   line-height: 1.3;
   color: #222;
   margin-top: 0;
@@ -384,12 +380,8 @@ body {
 .digital-para {
   letter-spacing: 0.01875rem;
   font-size: 1.1rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.8rem;
   margin-bottom: 4rem;
-  font-family: fantasy;
-  color: #8d8888;
+  font-family: montserrat;
 }
 .digital-cards-image-box {
   position: relative;
@@ -433,7 +425,7 @@ body {
   font-size: 0.99rem;
 }
 .digital-cards-para {
-  font-family: cursive;
+  font-family: montserrat;
 }
 #digital-cards-new {
   margin: 0 0.4rem 0.4rem 0.4rem;
@@ -468,13 +460,13 @@ body {
   margin: 0 0 12px;
   font-weight: 600;
   font-size: 15px;
-  font-family: system-ui;
+  font-family: montserrat;
 }
 .card-component-para {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.6;
-  font-family: system-ui;
+  font-family: montserrat;
   color: #788487;
 }
 .card-component-box {
@@ -517,7 +509,7 @@ body {
 .flexible-box1-para {
   font-size: 16px;
   letter-spacing: 0.01875rem;
-  font-family: system-ui;
+  font-family: montserrat;
   font-weight: 500;
   color: gray;
   line-height: 1.5rem;
@@ -537,13 +529,13 @@ body {
   margin: 0 0 12px;
   font-weight: 600;
   font-size: 15px;
-  font-family: system-ui;
+  font-family: montserrat;
 }
 .flexible-box2-para {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.6;
-  font-family: system-ui;
+  font-family: montserrat;
   color: #788487;
 }
 .creative-full-page {
@@ -578,7 +570,7 @@ body {
   font-size: 2.625rem;
   font-weight: 400;
   margin-bottom: 0.625rem;
-  font-family: inherit;
+  font-family: montserrat;
   line-height: 1.3;
   color: #222;
   margin-top: 0;
@@ -587,12 +579,8 @@ body {
 .creative-top-para {
   letter-spacing: 0.01875rem;
   font-size: 1.1rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.8rem;
   margin-bottom: 3rem;
-  font-family: fantasy;
-  color: #8d8888;
+  font-family: montserrat;
 }
 .pizzaimages {
   display: flex;
@@ -608,7 +596,7 @@ body {
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
-  font-family: system-ui;
+  font-family: montserrat;
 }
 .vegbox {
   display: block;
@@ -630,7 +618,7 @@ body {
 .italianp {
   color: white;
   font-size: 0.9rem;
-  font-family: fantasy;
+  font-family: montserrat;
 }
 .favorite-border {
   font-size: 3rem;
@@ -691,7 +679,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin: 12px auto;
-  font-family: sans-serif;
+  font-family: montserrat;
 }
 .map-container {
   margin: 60px auto;
@@ -710,7 +698,7 @@ body {
 .footer-top-heading {
   font-size: 3.2rem;
   font-weight: bold;
-  font-family: system-ui;
+  font-family: montserrat;
 }
 .footer-top-data {
   background-color: #f8f8f8;
@@ -771,42 +759,42 @@ body {
 .footer-about-para {
   margin-bottom: 1rem;
   color: #788487;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-about-para2 {
   margin-bottom: 1rem;
   color: #788487;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-about-para3 {
   margin-bottom: 1rem;
   color: #788487;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-recent-para {
   margin-bottom: 1rem;
   color: white;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-recent-para2 {
   margin-bottom: 1rem;
   color: white;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-recent-para3 {
   margin-bottom: 1rem;
   color: white;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
@@ -814,21 +802,21 @@ body {
 .footer-twitter-para {
   margin-bottom: 1rem;
   color: #788487;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-twitter-para2 {
   margin-bottom: 1rem;
   color: #788487;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
 .footer-twitter-para3 {
   margin-bottom: 1rem;
   color: #788487;
-  font-family: system-ui;
+  font-family: montserrat;
   line-height: 1.6;
   font-size: 0.9rem;
 }
@@ -847,7 +835,7 @@ body {
   text-align: center;
   font-size: 14px;
   padding: 1.5rem;
-  font-family: system-ui;
+  font-family: montserrat;
 }
 hr {
   color: gray;
@@ -872,7 +860,7 @@ label {
 .form-control {
   background-color: transparent;
   border-radius: 10px;
-  font-family: system-ui;
+  font-family: montserrat;
   letter-spacing: 1px;
   background-color: #ecebeb;
   box-shadow: inset -2px -5px 0px 0px #e4e3e3;
@@ -1011,7 +999,7 @@ label {
   border-radius: 1rem;
   color: white;
   font-weight: bold;
-  font-family: system-ui;
+  font-family: montserrat;
 }
 #counter-minus {
   color: #58b2ff;
@@ -1208,7 +1196,7 @@ label {
   }
   .winter-para {
     font-size: 1.2rem;
-    font-family: cursive;
+    font-family: montserrat;
     margin-bottom: 2rem;
   }
   .winter-image {
@@ -1225,7 +1213,7 @@ label {
   }
   .digital-para {
     font-size: 1.2rem;
-    font-family: cursive;
+    font-family: montserrat;
     margin-bottom: 2rem;
   }
   .digital-cards-container {
@@ -1239,7 +1227,7 @@ label {
   }
   .creative-top-para {
     font-size: 1.2rem;
-    font-family: cursive;
+    font-family: montserrat;
     margin-bottom: 2rem;
   }
   .flexible-page {
