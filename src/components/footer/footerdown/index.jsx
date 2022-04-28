@@ -6,7 +6,7 @@ import Twitter from "./twitter";
 
 function FooterDown() {
   return (
-    <div className="Footer-down-fullpage">
+    <div className="Footer-down-fullpage" data-aos="fade-up">
       <div className="Footer-down-page">
         <AboutUs />
         <Recent />

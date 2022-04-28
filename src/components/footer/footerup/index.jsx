@@ -5,7 +5,7 @@ import DataComponent from "./newdata";
 
 function FooterTop() {
   return (
-    <div className="footer-fullpage">
+    <div className="footer-fullpage" data-aos="fade-up">
       <div className="footer-top-data">
         <div className="footer-data">
           {Data.map((item, index) => (

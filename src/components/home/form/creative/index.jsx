@@ -12,12 +12,12 @@ function Creative() {
           to see any changes in performance over time.
         </p>
       </div>
-      <div className="creative-images-box">
+      <div className="creative-images-box" data-aos="fade-up">
         {Data.map((item, index) => (
           <CreatApi key={index} item={item} />
         ))}
       </div>
-      <div className="creative-images-box">
+      <div className="creative-images-box" data-aos="fade-up">
         {Data2.map((item, index) => (
           <CreatApi key={index} item={item} />
         ))}

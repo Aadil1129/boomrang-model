@@ -12,7 +12,12 @@ function About() {
             trends to see any changes in performance over time.
           </p>
         </div>
-        <img className="winter-image" src={mockup} alt="mockup" />
+        <img
+          data-aos="fade-up"
+          className="winter-image"
+          src={mockup}
+          alt="mockup"
+        />
       </div>
       <AboutComponent />
     </>

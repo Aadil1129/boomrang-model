@@ -9,10 +9,10 @@ function Flexible() {
     <div className="form-page">
       <div className="flexible-full-page">
         <div className="flexible-page">
-          <div className="flexible-box1">
+          <div className="flexible-box1" data-aos="fade-up">
             <img className="ipad-image" src={ipad} alt="ipad" />
           </div>
-          <div className="flexible-box2-page">
+          <div className="flexible-box2-page" data-aos="fade-up">
             <div className="flexible-box1">
               <h2 className="flexible-box1-heading">Flexible & Lightweight.</h2>
               <p className="flexible-box1-para">

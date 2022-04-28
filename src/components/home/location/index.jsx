@@ -13,7 +13,7 @@ function Location() {
           to see any changes in performance over time.
         </p>
       </div>
-      <div className="card-component-first">
+      <div className="card-component-first" data-aos="fade-up">
         {Data.map((item, index) => (
           <LocationComponent key={index} item={item} />
         ))}
