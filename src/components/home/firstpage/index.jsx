@@ -3,7 +3,7 @@ import React from "react";
 function First() {
   return (
     <div>
-      <div className="first-fullpage">
+      <div className="first-fullpage" data-aos="fade-up">
         <h1 className="firstpage-heading">
           Your customers will love you one minute from now.
         </h1>
